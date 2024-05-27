@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="C:/Users/User/.vscode/calculator_site/style.css">
+</head>
+<body>
+   <div class="calc">
+    <div class="calc-light" >
+      <div class="vizual" >
+        <p class="pp" > </p>
+      </div>
+    </div>
+   </div>
+   <div class="num" >
+    <div class="first_floor" >
+      <button class="btn" type="text" value="1" placeholder="1" onclick="liveScreen(1)" >1</button>
+      <button class="btn" type="text" value="2" placeholder="2" onclick="liveScreen(2)" >2</button>
+      <button class="btn" type="text" value="3" placeholder="3" onclick="liveScreen(3)" >3</button>
+      <button class="btn" id="plus" type="text" value="+" placeholder="+" onclick="liveScreen('+')" >+</button>
+    </div>
+    <div class="second_floor" >
+      <button class="btn" type="text" value="4" placeholder="4" onclick="liveScreen(4)" >4</button>
+      <button class="btn" type="text" value="5" placeholder="5" onclick="liveScreen(5)" >5</button>
+      <button class="btn" type="text" value="6" placeholder="6" onclick="liveScreen(6)" >6</button>
+      <button class="btn" id="minus" type="text" value="-" placeholder="-" onclick="liveScreen('-')" >-</button>
+    </div>
+    <div class="third_floor" >
+      <button class="btn" type="text" value="7" placeholder="7" onclick="liveScreen(7)" >7</button>
+      <button class="btn" type="text" value="8" placeholder="8" onclick="liveScreen(8)" >8</button>
+      <button class="btn" type="text" value="9" placeholder="9" onclick="liveScreen(9)" >9</button>
+      <button class="btn" id="mult" type="text" value="*" placeholder="*" onclick="liveScreen('*')" >*</button>
+    </div>
+    <div class="forth_floor" >
+      <button  class="btn" id="equal" type="text" value="/" placeholder="/" onclick="liveScreen('/')" >/</button>
+      <button class="btn" type="text" value="0" placeholder="0" onclick="liveScreen(0)" >0</button>
+      <button class="btn" type="text" value="." placeholder="." onclick="liveScreen('.')" >.</button>
+      <button class="btn" id="res" type="text" value="=" placeholder="=" onclick="liveScreen('=')" >=</button>
+    </div>
+    <div class="fifth_floor">
+      <button class="btn c" type="text" value="C" placeholder="C" onclick="liveScreen('C')" >C</button>
+    </div>
+   </div>
+
+   <div class="footer" ></div>
+   <script src="C:/Users/User/.vscode/calculator_site/main.js" ></script>
+</body>
+</html>
