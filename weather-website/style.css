@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width: 270px;
+    height: 480px;
+    background-color: aqua;
+    display: block;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: 10px solid black;
+    border-radius: 15px;
+    
+}
+.row{
+    height: 150px;
+    width: 270px;
+    border-bottom: 4px solid black;
+}
+.cityname{
+    display: block;
+    margin-top: -57%;
+    margin-left: 43%;
+    font-size: xx-large;
+}
+.level{
+    display: block;
+    margin-top: 45% ;
+    margin-left: 24%;
+    font-size: 60px;
+}
+.i{
+    display: block;
+    margin-top: 4%;
+}
+.g{
+    display: block;
+    margin-top: 22%;
+}
+.i2{
+    display: block;
+    margin-top: -15%;
+    margin-left: 45%;
+}
+.g2{
+    display: block;
+    margin-top: -15%;
+    margin-left: 45%;
+}
+.g3{
+    display: block;
+    margin-top: -15%;
+    margin-left: 45%;
+}
+.i3{
+    display: block;
+    margin-top: -15%;
+    margin-left: 45%;
+}
+.input{
+    width: 200px;
+    height: 40px;
+    background-color: aliceblue;
+    border: 5px solid black;
+    border-radius: 5px;
+    display: flex;
+    margin-top: -4.5%;
+    margin-left: 41%;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    border:5px solid black ;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    margin-top: -3%;
+    margin-left: 57%;
+}
