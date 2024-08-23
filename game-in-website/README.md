@@ -1,5 +1,5 @@
 
-## Button in website
+## Game in website
 
 In this project we will be making a Tetris game and it will take more time than other projects but we will get experience working on SCSS
 
