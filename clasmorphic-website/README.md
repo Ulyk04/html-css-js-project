@@ -1,4 +1,4 @@
-## Button in website
+## Clasmorphic button in website
 
 In this project we will make buttons from social applications and this is very helpful to study the features of HTML and CSS.
 
