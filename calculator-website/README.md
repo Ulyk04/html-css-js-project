@@ -1,4 +1,4 @@
-## Button in website
+##Calculator in website
 
 A very simple and small project for beginner frontend developers. In this project we make a simple calculator and study the features of html in css
 
