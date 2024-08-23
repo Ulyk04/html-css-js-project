@@ -1,4 +1,4 @@
-## Button in website
+## Password in website
 
 In this project we will make password fields. The main feature is that we can make the password visible and invisible. The project is simple but good for beginner developers.
 
